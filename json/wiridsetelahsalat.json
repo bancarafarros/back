@@ -1,0 +1,69 @@
+{
+  "status": true,
+  "creator": "@sajadaxarkatama",
+  "editor": "Miftahul Ulum @berandal_usaha_apik",
+  "source": "https://islam.nu.or.id/shalat/susunan-bacaan-wirid-sesudah-shalat-lima-waktu-aLgk4",
+  "based_on": "Amaliah Nahdalatul Ulama",
+  "data": [
+    {
+      "id": 1,
+      "judul": "Istighfar (3 kali)",
+      "arab": "أَسْتَغْفِرُ اللهَ الْعَظِـيْمَ الَّذِيْ لَااِلَهَ اِلَّا هُوَ الْحَيُّ الْقَيُّوْمُ وَأَتُوْبُ إِلَيْهِ",
+      "arti": "Saya mohon ampun kepada Allah yang maha agung.” (3 kali). (Allah) yang tiada tuhan selain Dia yang maha hidup, lagi terjaga. Aku bertobat kepada-Nya"
+    },
+    {
+      "id": 2,
+      "judul": "Kalimat Tahlil",
+      "arab": "لَاإِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِيْ وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْئٍ قَدِيْرٌ",
+      "arti": "Tiada Tuhan yang haq disembah kecuali Allah semata, tiada sekutu baginya. Hanya milikinya segala kerajaan dan hanya milikinya segala puji, baik yang hidup atau mati, Dialah Dzat yang kuasa atas segala sesuatu"
+    },
+    {
+      "id": 3,
+      "judul": "Membaca Doa",
+      "arab": "اَللَّهُمَّ أَجِرْنِـى مِنَ النَّارِ",
+      "arti": "Ya Allah, lindungilah aku daripada api neraka."
+    },
+    {
+      "id": 4,
+      "judul": "Memuji Allah",
+      "arab": "اَللَّهُمَّ أَنْتَ السَّلاَمُ، وَمِنْكَ السَّلَامُ، وَإِلَيْكَ يَعُوْدُ السَّلَامُ فَحَيِّنَارَبَّنَا بِالسَّلَامِ وَاَدْخِلْنَا الْـجَنَّةَ دَارَ السَّلَامِ تَبَارَكْتَ رَبَّنَا وَتَعَالَيْتَ يَا ذَاالْـجَلَالِ وَاْلإِكْرَامِ",
+      "arti": "Ya Allah, engkaulah Dzat yang memberi keselamatan (kesejahteraan), hanya darimu lah keselamatan (kesejahteraan) dan kepadamua lah segala keselamatan (kesejahteraan) itu kembali. Maka hidupkanlah kami Ya Allah dengan selamat (sejahtera), masukkan kami ke dalam surga rumah keselamatan (kesejahteraan), Engkaulah Dzat yang berkah wahai Tuhan kami dan maha luhur Engkau, Ya Tuhan kami yang Dzat yang memiliki keagungan dan kemuliaan"
+    },
+    {
+      "id": 5,
+      "judul": "Tasbih (33 Kali)",
+      "arab": "سُبْحَانَ اللهِ",
+      "arti": "Maha suci Allah"
+    },
+    {
+      "id": 6,
+      "judul": "Tahmid (33 Kali)",
+      "arab": "اَلْحَمْدُلِلهِ",
+      "arti": "Segala puji bagi Allah"
+    },
+    {
+      "id": 7,
+      "judul": "Takbir (33 Kali)",
+      "arab": "اَللهُ اَكْبَرْ",
+      "arti": "Allah maha besar"
+    },
+    {
+      "id": 8,
+      "judul": "Takbir, Tahmid dan Tasbih",
+      "arab": "اَللهُ اَكْبَرْ كَبِيْرًا وَالْحَمْدُ لِلهِ كَثِيْرًا وَسُبْحَانَ اللهِ بُكْرَةً وَأَصِيْلًا، لَاإِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِيْكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُيُحْيِيْ وَيُمِيْتُ وَهُوَ عَلَى كُلِّ شَيْئٍ قَدِيْرٌ، وَلَاحَوْلَ وَلَاقُوَّةَ إِلَّابِا للهِ الْعَلِـىِّ الْعَظِيْمِ. أَفْضَلُ ذِكْرِ فَاعْلَمْ أَنَّهُ",
+      "arti": "Allah Maha Besar dengan sebesar-besarnya, segala puji bagi Allah dengan pujian yang banyak. Maha Suci Allah pada waktu pagi dan petang. Tiada Tuhan yang haq disembah kecuali Allah semata, tiada sekutu baginya. Hanya milikinya segala kerajaan dan hanya milikinya segala puji, baik yang hidup atau mati, Dialah Dzat yang kuasa atas segala sesuatu"
+    },
+    {
+      "id": 9,
+      "judul": "Tahlil (100 Kali)",
+      "arab": "لَاإِلَهَ إِلَّا اللهُ",
+      "arti": "Tiada Tuhan yang haq disembah kecuali Allah"
+    },
+    {
+      "id": 9,
+      "judul": "Doa",
+      "arab": "Doa masing-masing",
+      "arti": "Doa masing-masing"
+    }
+  ]
+}

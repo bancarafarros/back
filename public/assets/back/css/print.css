@@ -1,0 +1,68 @@
+@page {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 7pt;
+}
+
+.font-weight-bolder {
+	font-weight: bold;
+	font-size: large;
+	color: black;
+}
+
+.text {
+	font-size: 11pt;
+	color: black;
+}
+
+.bg-dark-blue {
+	background-color: #1c14c4;
+}
+
+.title-head {
+	font-size: 13px;
+	color: white;
+}
+
+.text-bold {
+	font-weight: bold;
+	color: black;
+}
+
+.w-3 {
+	width: 33%;
+	float: left;
+}
+
+.w-4 {
+	width: 45%;
+	float: left;
+}
+
+.w-5 {
+	width: 50%;
+	float: left;
+}
+
+.w-6 {
+	width: 55%;
+	float: left;
+}
+
+.text-medium {
+	font-size: 12pt;
+	color: black;
+}
+
+.text-small {
+	font-size: 8pt;
+	color: black;
+}
+
+.m-end {
+	margin-left: 20px;
+}
+
+.text-white {
+	color: #fff;
+}

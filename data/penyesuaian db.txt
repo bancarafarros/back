@@ -1,0 +1,27 @@
+donasi_histories
+Hapus :
+metode_pembayaran
+metode_pembayaran_type
+
+Tambah
+nomor_invoice
+kode_pembayaran
+nama_pengirim
+
+jamaah_tabungan_pembayaran
+Hapus:
+id_bank_tujuan
+metode_pembayaran_id
+nomor_referensi
+tanggal_transfer
+deskripsi
+
+Tambah:
+ref_bank
+kode_pembayaran
+is_valid
+expired_time
+
+ref_bank
+Menambahkan data bank
+

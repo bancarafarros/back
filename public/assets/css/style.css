@@ -1,0 +1,442 @@
+/* @import url('../front/poppins/poppins.css'); */
+/* @import url('../front/rubik/rubik.css'); */
+
+/* style lain-lain */
+
+
+.text-carousel{
+    text-align: justify;
+}
+.h1ne-carousel{
+    font-family: 'Rubik';
+}
+
+.toga{
+    padding-left: 50px;
+    width: 230px;
+    height: 150px;
+}
+
+.imgcarousel1{
+    margin-top: -85px;
+    float: left;
+    max-width: 600px;
+    max-height: 450px;
+}
+
+.textcontentcarousel1{
+    float: left;
+    color: white;
+    font-family: 'Rubik';
+    text-align: left;
+}
+
+.texttitlesection{
+    text-align: center;
+    color: white;
+    font-family: 'Rubik';
+    text-align: left;
+}
+
+
+
+.textfooter{
+    position: relative;
+    color: white;
+    font-family: 'Rubik';
+    text-align: left;
+}
+
+.p-light-biasa{
+    color: white;
+    font-family: 'Rubik';
+}
+
+.imgcarousel2{
+    margin-top: -110px;
+    float: left;
+    max-width: 600px;
+    max-height: 450px;
+}
+.kontendropdown{
+    background-color: white;
+    font-family: 'Rubik';
+    padding: 10px;
+    color: black;
+}
+
+/* font tulisan */
+.agenda{
+    position: absolute;
+    width: 490px;
+    height: 92px;
+    left: 613.09px;
+    top: 1036px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 46px;
+    color: #354052;
+}
+
+
+
+/* Column Style */
+
+* {
+    box-sizing: border-box;
+  }
+
+.column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+@media screen and (max-width: 1200px) {
+    .column {
+      width: 100%;
+    }
+}
+/* kolom kartu */
+.kolkar {
+    float: center;
+    width: 320px;
+    height: 150px;
+    padding: 10px;
+}
+
+
+/* card */
+.kartu{
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* chek style */
+.check{
+    height: 15px;
+    width: 15px;
+}
+
+/* tombol   */
+.button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.navbutton {
+    
+    background-color: transparent; 
+    color: white;
+    border-radius: 10px; 
+    border: 2px solid white;
+}
+
+.navbutton:hover {
+    background-color: yellow;
+    color: black;
+}
+.infobutton {
+    padding: 10px;
+    float: left;
+    background-color:  orange; 
+    color: black;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.infobutton:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo{
+    border: 5px solid #555;
+    border-radius: 0px 0px 10px 10px;
+    border-color: white;
+}
+
+.akreditasi{
+    max-width: fit-content;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border-color: white;
+}
+
+.persyaratan{
+    background-color: transparent; 
+    color: white;
+    border-radius: 15px; 
+}
+
+.persyaratan:hover{
+    border: 0.5px solid white;
+}
+
+.regbutton {
+    padding: 5px;
+    background-color: #f5b536; 
+    font-family: 'Rubik';
+    color: black;
+    border-radius: 5px; 
+    border: 2px solid transparent;
+}
+.regbutton2 {
+    padding: 10px;
+    background-color: #f5b536; 
+    font-family: 'Rubik';
+    color: white;
+    border-radius: 10px; 
+    border: 2px solid transparent;
+}
+
+.mini-img-rec{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+/* section styling */
+.banner_main1 {
+    background: url(../img/banner1.webp);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: left;
+    align-content: left;
+    align-items: left;
+    position: relative;
+}
+.banner_main2 {
+    background: url(../img/banner2.webp);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+.banner_main3 {
+    background: url(../img/banner1.webp);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ijo-motif {
+    background: url(../img/green_pattern.webp);
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ijo{
+    background-color: #088237;
+    min-height: 100px;
+    max-height: fit-content;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ijospan{
+    background-color: #088237;
+    min-height: 500px;
+    background-size: 100% 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cardijo{
+    background-color: #088237;
+    min-height: 100px;
+    max-height: fit-content;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.rectangle {
+    height: 50px;
+    width: 550px;
+    background-color: gainsboro;
+    border-radius: 4px;
+  }
+
+.innerlink{
+    color: black;
+    font-family: 'Rubik';
+}
+
+.innerlink:hover{
+    color: #009E3D;
+    transition: 0.3s;
+}
+
+.putih{
+    background-color: #fff;
+    min-height: 100px;
+    max-height: fit-content;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+section{
+    position: relative!important;
+}
+
+.footer{
+    background: url(../img/banner1.webp);
+    background-repeat: no-repeat;
+    max-height: 900px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.iframe-style{
+    position: absolute;
+    width: 1200px;
+    height: 260px;
+    
+    bottom: 0;
+    
+
+    /* Primary/Salle Green */
+
+    background: #088237;
+    border-radius: 15px;
+}
+
+.rightarrow{
+    max-width: 35px;
+    max-height: 35px;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+/* css gambar dll */
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

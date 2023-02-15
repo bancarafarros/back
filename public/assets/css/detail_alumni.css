@@ -1,0 +1,25 @@
+/* hover detail alumni */
+a.link-alumni {
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    position: relative;
+  }
+
+  
+  a.link-alumni:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #396113;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a.link-alumni:active:after, a.link-alumni:focus:after, a.link-alumni:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }

@@ -1,0 +1,3050 @@
+{
+	"last_updated": "2022-03-22 10:15:41",
+	"postman_collection": "https://www.getpostman.com/collections/327a0fb61088bfde4e42",
+	"available_indicator": true,
+	"update_notes": [
+		"POST data member.",
+		"Data Wilayah (Provinsi, Kabupaten / Kota, Kecamatan)",
+        "Data Magang (Periode Magang, Posisi Magang)"
+	],
+	"data": [
+		{
+			"section": "post-member-id",
+			"title": null,
+			"data": {
+				"method": "post",
+				"url": "/api/member/id",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "member_id",
+							"description": "Member ID"
+						}
+					],
+					"example": {
+					    "member_id":"memberid"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						}
+					],
+					"example": {
+						"status": "200",
+						"message": "Data ditemukan",
+						"data": {
+							"member_id": "memberid",
+							"nama": "Nama Member",
+							"nik": "351411520591XXXX",
+							"no_hp": "08988463XXX",
+							"tgl_lahir": "1991-04-29",
+							"kode_provinsi": "35",
+							"kode_kabupaten": "3514",
+							"kode_kecamatan": "3514120",
+							"alamat": "Wangi - sumberejo",
+							"alamat_domisili": "Dsn. Wangi - Ds. Sumberejo",
+							"email": "email3@gmail.com",
+							"member_type": "Distributor",
+							"custom_member": null,
+							"bank_type": "BCA",
+							"bank_no_rek": "55444444",
+							"bank_atas_nama": "Nama Member",
+							"parent_member_id": "20",
+							"status": "1",
+							"foto": "https://bgskin.online/public/uploads/member/220205082709.jpg"
+						}
+					}
+				}
+			}
+		},
+		{
+			"section": "post-member-nama",
+			"title": null,
+			"data": {
+				"method": "post",
+				"url": "/api/member/nama",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "nama",
+							"description": "Nama member"
+						}
+					],
+					"example": {
+					    "nama":"nama"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						}
+					],
+					"example": {
+						"status": "200",
+						"message": "Data ditemukan",
+						"data": [
+							{
+								"member_id": "00088",
+								"nama": "nama",
+								"nik": "352110661094XXXX1",
+								"no_hp": "082231444XXX",
+								"tgl_lahir": "2031-06-17",
+								"kode_provinsi": "35",
+								"provinsi": "JAWA TIMUR",
+								"kode_kabupaten": "3507",
+								"kabupaten": "KABUPATEN MALANG",
+								"kode_kecamatan": "3507280",
+								"kecamatan": "SINGOSARI",
+								"alamat": "Alamat asal",
+								"alamat_domisili": "Alamat domisili",
+								"email": "alfani1994@gmail.com",
+								"member_type": "Distributor",
+								"custom_member": null,
+								"bank_type": "BCA",
+								"bank_no_rek": "3680153XXX",
+								"bank_atas_nama": "nama",
+								"parent_member_id": null,
+								"status": "1"
+							},
+							{
+								"member_id": "44333",
+								"nama": "nama member baru",
+								"nik": "3521106610940001",
+								"no_hp": "0822314XXX40",
+								"tgl_lahir": "2031-06-17",
+								"kode_provinsi": "35",
+								"provinsi": "JAWA TIMUR",
+								"kode_kabupaten": "3507",
+								"kabupaten": "KABUPATEN MALANG",
+								"kode_kecamatan": "3507280",
+								"kecamatan": "SINGOSARI",
+								"alamat": "Alamat domisili",
+								"alamat_domisili": "Alamat asal",
+								"email": "alfjjsggs@gmail.com",
+								"member_type": "Distributor",
+								"custom_member": null,
+								"bank_type": "BCA",
+								"bank_no_rek": "3680153XXXX",
+								"bank_atas_nama": "nama member baru",
+								"parent_member_id": null,
+								"status": "1"
+							}
+						]
+					}
+				}
+			}
+		},
+        {
+			"section": "ubah_profile_peserta",
+			"title": "Mengubah Data Profile Peserta",
+			"data": {
+				"method": "post",
+				"url": "/api/profile/update",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "nama_lengkap",
+							"description": "Key ini digunakan untuk memasukkan nama lengkap peserta"
+						},
+                        {
+							"key": "url_photo",
+							"description": "Key ini digunakan untuk memasukkan foto peserta"
+						},
+                        {
+							"key": "provinsi",
+							"description": "Key ini digunakan untuk memasukkan kode provinsi peserta"
+						},
+                        {
+							"key": "kabupaten",
+							"description": "Key ini digunakan untuk memasukkan kode kabupaten peserta"
+						},
+                        {
+							"key": "kecamatan",
+							"description": "Key ini digunakan untuk memasukkan kode kecamatan peserta"
+						},
+                        {
+							"key": "posisi",
+							"description": "Key ini digunakan untuk memasukkan kode posisi peserta"
+						},
+                        {
+							"key": "tempat_lahir",
+							"description": "Key ini digunakan untuk memasukkan tempat lahir dari peserta"
+						},
+                        {
+							"key": "tanggal_lahir",
+							"description": "Key ini digunakan untuk memasukkan tanggal lahir dari peserta"
+						},
+                        {
+							"key": "url_portofolio",
+							"description": "Key ini digunakan untuk memasukkan url dari portofolio peserta"
+						},
+                        {
+							"key": "harapan",
+							"description": "Key ini digunakan untuk memasukkan harapan dari peserta"
+						},
+                        {
+							"key": "jenis_kelamin",
+							"description": "Key ini digunakan untuk memasukkan jenis kelamin dari peserta"
+						},
+                        {
+							"key": "alamat",
+							"description": "Key ini digunakan untuk memasukkan alamat dari peserta"
+						},
+                        {
+							"key": "email",
+							"description": "Key ini digunakan untuk memasukkan email dari peserta"
+						},
+                        {
+							"key": "harapan",
+							"description": "Key ini digunakan untuk memasukkan harapan dari peserta"
+						}
+					],
+					"example": {
+					    "nama_lengkap":"rRrRrR",
+                        "url_photo":"logo.png",
+                        "provinsi":"3500",
+                        "kabupaten":"3507",
+                        "kecamatan":"1407060",
+                        "posisi":"4",
+                        "tempat_lahir":"Mataram",
+                        "tanggal_lahir":"2001-01-15",
+                        "url_portofolio":"gdrive/porto",
+                        "harapan":"kakaka",
+                        "jenis_kelamin":"Laki-laki",
+                        "alamat":"Malang",
+                        "email":"amat@gmail.com"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "nama_lengkap",
+							"description": "Berisi nama lengkap dari peserta yang telah diganti",
+							"note": ""
+						},
+						{
+							"key": "email",
+							"description": "Berisi email dari peserta yang telah diganti",
+							"note": ""
+						}
+					],
+					"example": {
+						"code": 200,
+						"message": "Berhasil Diupdate",
+						"data": {
+							"nama_lengkap": "rRrRrR",
+							"email": "amat@gmail.com"
+						}
+					}
+				}
+			}
+		},
+		{
+			"section": "ubah_profile_mentor",
+			"title": "Mengubah Data Profile Mentor",
+			"data": {
+				"method": "post",
+				"url": "/api/profile/update",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "nama_lengkap",
+							"description": "Key ini digunakan untuk memasukkan nama lengkap dari mentor"
+						},
+                        {
+							"key": "url_photo",
+							"description": "Key ini digunakan untuk memasukkan foto dari mentor"
+						},
+                        {
+							"key": "provinsi",
+							"description": "Key ini digunakan untuk memasukkan kode provinsi dari mentor"
+						},
+                        {
+							"key": "kabupaten",
+							"description": "Key ini digunakan untuk memasukkan kode kabupaten dari mentor"
+						},
+                        {
+							"key": "kecamatan",
+							"description": "Key ini digunakan untuk memasukkan kode kecamatan dari mentor"
+						},
+                        {
+							"key": "posisi",
+							"description": "Key ini digunakan untuk memasukkan kode posisi dari mentor"
+						},
+                        {
+							"key": "jenis_kelamin",
+							"description": "Key ini digunakan untuk memasukkan jenis kelamin dari mentor"
+						},
+                        {
+							"key": "alamat",
+							"description": "Key ini digunakan untuk memasukkan alamat dari mentor"
+						},
+                        {
+							"key": "email",
+							"description": "Key ini digunakan untuk memasukkan email dari mentor"
+						}
+					],
+					"example": {
+					    "nama_lengkap":"rRrRrR",
+                        "url_photo":"logo.png",
+                        "provinsi":"3500",
+                        "kabupaten":"3507",
+                        "kecamatan":"1407060",
+                        "posisi":"4",
+                        "jenis_kelamin":"Laki-laki",
+                        "alamat":"Malang",
+                        "email":"amat@gmail.com"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "nama_lengkap",
+							"description": "Berisi nama lengkap dari peserta yang telah diganti",
+							"note": ""
+						},
+						{
+							"key": "email",
+							"description": "Berisi email dari peserta yang telah diganti",
+							"note": ""
+						}
+					],
+					"example": {
+						"code": 200,
+						"message": "Berhasil Diupdate",
+						"data": {
+							"nama_lengkap": "rRrRrR",
+							"email": "amat@gmail.com"
+						}
+					}
+				}
+			}
+		},
+		{
+			"section": "ambil_profile",
+			"title": "Menampilkan Data Profile",
+			"data": {
+				"method": "get",
+				"url": "/api/profile/detail",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "nama_lengkap",
+							"description": "Nama pendaftar"
+						},
+                        {
+							"key": "url_photo",
+							"description": "NIM Pendaftar"
+						},
+                        {
+							"key": "provinsi",
+							"description": "Tempat Lahir"
+						},
+                        {
+							"key": "kabupaten",
+							"description": "Tanggal Lahir"
+						},
+                        {
+							"key": "kecamatan",
+							"description": "Jenis Kelamin"
+						},
+                        {
+							"key": "posisi",
+							"description": "Kode Provinsi"
+						},
+                        {
+							"key": "nim",
+							"description": "Kode Kabupaten"
+						},
+                        {
+							"key": "tempat_lahir",
+							"description": "Kode Kecamatan"
+						},
+                        {
+							"key": "tanggal_lahir",
+							"description": "Alamat Pendaftar"
+						},
+                        {
+							"key": "url_portofolio",
+							"description": "Email Pendaftar"
+						},
+                        {
+							"key": "harapan",
+							"description": "Nomor Hp Pendaftar"
+						},
+                        {
+							"key": "jenis_kelamin",
+							"description": "Kode universitas"
+						},
+                        {
+							"key": "alamat",
+							"description": "Tahun Angkatan Pendaftar"
+						},
+                        {
+							"key": "email",
+							"description": "Kode posisi"
+						},
+                        {
+							"key": "harapan",
+							"description": "Harapan pendaftar"
+						}
+					],
+					"example": "api/profile/detail"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "nama_lengkap",
+							"description": "Berisi nama lengkap dari peserta",
+							"note": ""
+						},
+						{
+							"key": "nim",
+							"description": "Berisi nim dari peserta",
+							"note": ""
+						},
+						{
+							"key": "tempat_lahir",
+							"description": "Berisi tempat lahir dari peserta",
+							"note": ""
+						},
+						{
+							"key": "tanggal_lahir",
+							"description": "Berisi tanggal_lahir dari peserta",
+							"note": ""
+						},
+						{
+							"key": "jenis_kelamin",
+							"description": "Berisi jneis kelamin dari peserta",
+							"note": ""
+						},
+						{
+							"key": "alamat",
+							"description": "Berisi alamat dari peserta",
+							"note": ""
+						},
+						{
+							"key": "email",
+							"description": "Berisi email dari peserta",
+							"note": ""
+						},
+						{
+							"key": "nomor_hp",
+							"description": "Berisi nomor hp dari peserta",
+							"note": ""
+						}
+					],
+					"example": {
+						"code": 200,
+						"message": "Berhasil Diambil",
+						"data": [
+							{
+								"nama_lengkap": "rRrRrR",
+								"nim": "1231231",
+								"tempat_lahir": "Mataram",
+								"tanggal_lahir": "2001-01-15",
+								"jenis_kelamin": "Laki-laki",
+								"alamat": "Malang",
+								"email": "amat@gmail.com",
+								"nomor_hp": "090676"
+							}
+						]
+					}
+				}
+			}
+		},
+        {
+			"section": "registrasi",
+			"title": "Registrasi Pendaftar",
+			"data": {
+				"method": "post",
+				"url": "/api/auth/daftar",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "nama_lengkap",
+							"description": "Key ini digunakan untuk memasukkan nama pendaftar"
+						},
+                        {
+							"key": "nim",
+							"description": "Key ini digunakan untuk memasukkan NIM Pendaftar"
+						},
+                        {
+							"key": "tempat_lahir",
+							"description": "Key ini digunakan untuk memasukkan Tempat Lahir pendaftar"
+						},
+                        {
+							"key": "tanggal_lahir",
+							"description": "Key ini digunakan untuk memasukkan Tanggal Lahir pendaftar"
+						},
+                        {
+							"key": "jenis_kelamin",
+							"description": "Key ini digunakan untuk memasukkan Jenis Kelamin pendaftar"
+						},
+                        {
+							"key": "provinsi",
+							"description": "key ini digunakan untuk memasukkan Kode Provinsi pendaftar"
+						},
+                        {
+							"key": "kabupaten",
+							"description": "Key ini digunakan untuk memasukkan Kode Kabupaten pendaftar"
+						},
+                        {
+							"key": "kecamatan",
+							"description": "Key ini digunakan untuk memasukkan Kode Kecamatan pendaftar"
+						},
+                        {
+							"key": "alamat",
+							"description": "Key ini digunakan untuk memaasukkan Alamat Pendaftar"
+						},
+                        {
+							"key": "email",
+							"description": "Key ini digunakan untuk memasukkan Email Pendaftar"
+						},
+                        {
+							"key": "nomor_hp",
+							"description": "Key ini digunakan untuk memasukkan Nomor Hp Pendaftar"
+						},
+                        {
+							"key": "asal_universitas",
+							"description": "Key ini digunakan untuk memasukkan Kode universitas pendaftar"
+						},
+                        {
+							"key": "tahun_angkatan",
+							"description": "Key ini digunakan untuk memasukkan Tahun Angkatan Pendaftar"
+						},
+                        {
+							"key": "id_posisi",
+							"description": "Key ini digunakan untuk memasukkan Kode posisi pendaftar"
+						},
+                        {
+							"key": "harapan",
+							"description": "Key ini digunakan untuk memasukkan Harapan pendaftar"
+						},
+                        {
+							"key": "tanggal_mulai",
+							"description": "Key ini digunakan untuk memasukkan Tanggal Mulai Magang"
+						},
+                        {
+							"key": "nama_sosmed[0]",
+							"description": "Key ini digunakan untuk memasukkan Nama Instagram Pendaftar"
+						},
+						{
+							"key": "nama_sosmed[1]",
+							"description": "Key ini digunakan untuk memasukkan Nama Twitter Pendaftar"
+						},
+						{
+							"key": "nama_sosmed[2]",
+							"description": "Key ini digunakan untuk memasukkan Nama Facebook Pendaftar"
+						},
+						{
+							"key": "nama_sosmed[3]",
+							"description": "Key ini digunakan untuk memasukkan Nama Linkedlin Pendaftar"
+						},
+						{
+							"key": "nama_sosmed[4]",
+							"description": "Key ini digunakan untuk memasukkan Nama Globe Pendaftar"
+						},
+                        {
+							"key": "magang",
+							"description": "Key ini digunakan untuk memasukkan Kode magang"
+						},
+                        {
+							"key": "url_portofolio",
+							"description": "Key ini digunakan untuk memasukkan Url Portofolio Pendaftar"
+						},
+                        {
+							"key": "id_jenjang_pendidikan",
+							"description": "Key ini digunakan untuk memasukkan Jenjang Studi Pendaftar"
+						},
+                        {
+							"key": "prodi",
+							"description": "Key ini digunakan untuk memasukka Program Studi Pendaftar"
+						}
+					],
+					"example": {
+					    "nama_lengkap":"Rachmadi Rusliansyah",
+                        "nim":"19053434",
+                        "tempat_lahir":"Dompu",
+                        "tanggal_lahir":"2001-05-15",
+                        "jenis_kelamin":"Laki-laki",
+                        "provinsi":"3500",
+                        "kabupaten":"3507",
+                        "kecamatan":"1407060",
+                        "alamat":"Malang",
+                        "email":"rrr@gmail.com",
+                        "nomor_hp":"0912819",
+                        "asal_universitas":"001021",
+                        "tahun_angkatan":"2020",
+                        "id_posisi":"4",
+                        "harapan":"Pasti Bisa",
+                        "tanggal_mulai":"2022-02-14",
+                        "nama_sosmed[0]":"askdaskd",
+                        "nama_sosmed[1]":"lakakal",
+                        "nama_sosmed[2]":"",
+						"nama_sosmed[3]":"",
+						"nama_sosmed[4]":"",
+                        "magang":"2a0e577c-9b56-11ec-8d01-9c5c8e0ccde3",
+                        "url_portofolio":"gdrive/kskala",
+                        "id_jenjang_pendidikan":"1",
+                        "prodi":"Teknik Informatika"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "nama_lengkap",
+							"description": "Berisi nama lengkap dari seseorang yang berhasil mendaftar",
+							"note": ""
+						},
+						{
+							"key": "nim",
+							"description": "Beris nim dari seseorang yang berhasil mendaftar",
+							"note": ""
+						},
+						{
+							"key": "email",
+							"description": "Berisi email dari seseorang yang berhasil mendaftar",
+							"note": ""
+						}
+					],
+					"example": {
+						"status": 200,
+						"message": "Pendaftaran Berhasil",
+						"data": {
+							"nama_lengkap": "Rachmadi Rusliansyah",
+							"nim": "19053434",
+							"email": "rrr@gmail.com"
+						}
+					}
+				}
+			}
+		},
+        {
+			"section": "ubah_password",
+			"title": "Mengubah Password User",
+			"data": {
+				"method": "post",
+				"url": "/api/auth/ubahPass",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "old_pass",
+							"description": "Key ini digunakan untuk memasukkan password lama user"
+						},
+                        {
+							"key": "new_pass",
+							"description": "Key ini digunakan untuk memasukkan password baru user"
+						},
+                        {
+							"key": "confirm_pass",
+							"description": "Key ini digunakan untuk memasukkan Konfirmasi password baru"
+						}
+					],
+					"example": {
+					    "old_pass":"12345",
+                        "new_pass":"01234567",
+                        "confirm_pass":"01234567"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "password",
+							"description": "Berisi password user yang berhasil diganti",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Password Berhasil Diganti",
+                        "data": {
+                            "password": "924592b9b103f14f833faafb67f480691f01988aa457c0061769f58cd47311bc"
+                        }
+					}
+				}
+			}
+		},
+        {
+			"section": "lupa_password",
+			"title": "Lupa Password User",
+			"data": {
+				"method": "post",
+				"url": "/api/auth/lupapass",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "username",
+							"description": "username atau email user"
+						}
+					],
+					"example": {
+					    "username":"rachmadi0722@gmail.com"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "token",
+							"description": "Key ini berisi token yang akan dimasukkan ke database dan yang dikirimkan ke email",
+							"note": ""
+						},
+						{
+							"key": "user_id",
+							"description": "Key ini berisi ID user yang akan diganti passwordnya",
+							"note": ""
+						},
+						{
+							"key": "expired_at",
+							"description": "Key ini berisi waktu expirednya token yang telah dimasukkan ke tabel reset_token",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Token Berhasil",
+                        "data": {
+                            "token": "0c9776b796f55de7113bbb2355128b",
+                            "user_id": "5",
+                            "expired_at": "2022-03-23 09:54:09"
+                        }
+					}
+				}
+			}
+		},
+        {
+			"section": "is_valid",
+			"title": "Check token dan memasukkan password baru",
+			"data": {
+				"method": "post",
+				"url": "/api/auth/isvalid",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "token",
+							"description": "key ini digunakan untuk memasukkan token yang dikirim ke email"
+						},
+                        {
+							"key": "password",
+							"description": "Key ini digunakan untuk memasukkan password baru"
+						}
+					],
+					"example": {
+					    "token":"0c9776b796f55de7113bbb2355128b",
+                        "password":"12345"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "password",
+							"description": "Berisi password baru yang telah diganti",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Password Berhasil Diganti",
+                        "data": {
+                            "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5"
+                        }
+					}
+				}
+			}
+		},
+		{
+			"section": "login",
+			"title": null,
+			"data": {
+				"method": "post",
+				"url": "/api/auth/login",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "username",
+							"description": "Key ini digunakan untuk memasukkan data username atau email dari user"
+						},
+						{
+							"key": "password",
+							"description": "Key ini digunakan untuk memasukkan password user"
+						}
+					],
+					"example": {
+						"username": "username1",
+						"password": "password1"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": "User yang boleh login hanya yang memiliki role <b class='text-danger'>Pengguna API BG Skin</b>"
+						},
+						{
+							"key": "data",
+							"description": "Berisi data response",
+							"note": "Key ini akan diganti dengan 'error', jika terdapat error."
+						},
+						{
+							"key": "token",
+							"description": "JWT token yang dipakai untuk tiap request",
+							"note": ""
+						},
+						{
+							"key": "refresh_token",
+							"description": "Token yang dipakai untuk refresh (jika main token kadaluarsa)",
+							"note": ""
+						},
+						{
+							"key": "expires",
+							"description": "Waktu kadaluarsa token (dalam detik)",
+							"note": ""
+						}
+					],
+					"example": {
+						"status": "200",
+						"data": {
+							"token": "eyJ0exxx",
+							"refresh_token": "eyJ0exxx",
+							"expires": "3600"
+						}
+					}
+				}
+			}
+		},
+		{
+			"section": "post-token",
+			"title": null,
+			"data": {
+				"method": "post",
+				"url": "/api/Auth",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "username",
+							"description": "username user BG Skin, silahkan menghubungi Admin BG Skin"
+						},
+						{
+							"key": "password",
+							"description": "password user BG Skin, silahkan menghubungi Admin BG Skin"
+						}
+					],
+					"example": {
+						"username": "user1",
+						"password": "password1"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": "User yang boleh login hanya yang memiliki role <b class='text-danger'>Pengguna API BG Skin</b>"
+						},
+						{
+							"key": "data",
+							"description": "Berisi data response",
+							"note": "Key ini akan diganti dengan 'error', jika terdapat error."
+						},
+						{
+							"key": "token",
+							"description": "JWT token yang dipakai untuk tiap request",
+							"note": ""
+						},
+						{
+							"key": "refresh_token",
+							"description": "Token yang dipakai untuk refresh (jika main token kadaluarsa)",
+							"note": ""
+						},
+						{
+							"key": "expires",
+							"description": "Waktu kadaluarsa token (dalam detik)",
+							"note": ""
+						}
+					],
+					"example": {
+						"code": 200,
+						"message": "Login berhasil",
+						"data": {
+							"api_key": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZF91c2VyIjoiMyIsImlkX2dyb3VwIjoiMiIsInRpbWVzdGFtcCI6IjIwMjItMDMtMjMgMDA6Mjc6MzcifQ.C4H3Xz8B_nLR1TxXgMhEvVRZnZgct6JBoYVBLTD5AKo",
+							"expires": "never",
+							"refresh_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IjA4NTEwODAyODc4MiIsInRpbWVzdGFtcCI6IjIwMjItMDMtMjMgMDA6Mjc6MzcifQ.eJqQpYsq3hgohipgNbFfhGQBRoGev1oMss64QTVgCD4"
+						}
+					}
+				}
+			}
+		},
+		{
+			"section": "refresh-token",
+			"title": null,
+			"data": {
+				"method": "post",
+				"url": "/api/Auth",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "refresh_token",
+							"description": "refresh token, didapat pada saat get token"
+						}
+					],
+					"example": {
+						"refresh_token": "eyJ0exxx"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": "User yang boleh login hanya yang memiliki role <b class='text-danger'>Pengguna API BG Skin</b>"
+						},
+						{
+							"key": "data",
+							"description": "Berisi data response",
+							"note": "Key ini akan diganti dengan 'error', jika terdapat error."
+						},
+						{
+							"key": "token",
+							"description": "JWT token yang dipakai untuk tiap request",
+							"note": ""
+						},
+						{
+							"key": "refresh_token",
+							"description": "Token yang dipakai untuk refresh (jika main token kadaluarsa)",
+							"note": ""
+						},
+						{
+							"key": "expires",
+							"description": "Waktu kadaluarsa token (dalam detik)",
+							"note": ""
+						}
+					],
+					"example": {
+						"status": "200",
+						"data": {
+							"token": "eyJ0exxx",
+							"refresh_token": "eyJ0exxx",
+							"expires": "3600"
+						}
+					}
+				}
+			}
+		},
+        {
+			"section": "tambah_notes",
+			"title": "Menambah Notes Member",
+			"data": {
+				"method": "post",
+				"url": "/api/Notes/index_post",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "title",
+							"description": "Key ini digunakan untuk memasukkan judul dari sebuah note"
+						},
+                        {
+							"key": "description",
+							"description": "Key ini digunakan untuk memasukkan deskripsi dari sebuah note"
+						},
+                        {
+							"key": "support_image",
+							"description": "Key ini digunakan untuk memasukkan gambar pendukung dari sebuah note"
+						},
+                        {
+							"key": "date",
+							"description": "key ini digunakan untuk memasukkan tanggal note"
+						}
+					],
+					"example": {
+					    "title":"aaaa",
+                        "description":"bbb",
+                        "support_image":"logo.png",
+                        "date":"2022-03-11"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "member_id",
+							"description": "Berisi ID member yang mengisi note",
+							"note": ""
+						},
+						{
+							"key": "title",
+							"description": "Berisi title dari note yang ditambahkan",
+							"note": ""
+						},
+						{
+							"key": "description",
+							"description": "Berisi deskripsi dari note yang ditambahkan",
+							"note": ""
+						},
+						{
+							"key": "date",
+							"description": "Berisi waktu dari note yang ditambahkan",
+							"note": ""
+						},
+						{
+							"key": "support_image",
+							"description": "Berisi gambar bantuan dari note yang ditambahkan",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Berhasil Ditambahkan",
+                        "data": {
+                            "member_id": "7d744528-a8c8-11ec-9b23-80fa5b6abadc",
+                            "title": "aaaa",
+                            "description": "bbb",
+                            "date": "2022-03-11",
+                            "support_image": "/public/uploads/notes/7d744528-a8c8-11ec-9b23-80fa5b6abadc/notes_220322101539.png"
+                        }
+					}
+				}
+			}
+		},
+        {
+			"section": "ambil_semua_notes",
+			"title": "Mengambil semua data notes",
+			"data": {
+				"method": "get",
+				"url": "/api/Notes/index_get",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "-",
+							"description": "tidak ada parameter tambahan pada url"
+						}
+					],
+					"example": "/api/Notes/index_get"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+                        {
+							"key": "member_id",
+							"description": "Berisi ID dari Member",
+							"note": ""
+						},
+						{
+							"key": "title",
+							"description": "Berisi judul note",
+							"note": ""
+						},
+                        {
+							"key": "date",
+							"description": "Berisi waktu dari note",
+							"note": ""
+						},
+                        {
+							"key": "description",
+							"description": "Berisi deskripsi dari note",
+							"note": ""
+						},
+                        {
+							"key": "support_image",
+							"description": "Berisi gambar pendukung Note",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Berhasil Diambil",
+                        "data": [
+                            {
+                                "member_id": "7d744528-a8c8-11ec-9b23-80fa5b6abadc",
+                                "title": "aaaa",
+                                "date": "2022-03-11",
+                                "description": "bbb",
+                                "support_image": "/public/uploads/notes/7d744528-a8c8-11ec-9b23-80fa5b6abadc/notes_220322101539.png"
+                            }
+                        ]
+					}
+				}
+			}
+		},
+        {
+			"section": "ambil_detail_notes",
+			"title": "Mengambil detail data notes",
+			"data": {
+				"method": "get",
+				"url": "/api/Notes/detail/05c1831e-a9c9-11ec-ae1c-80fa5b6abadc",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "-",
+							"description": "tidak ada parameter tambahan pada url"
+						}
+					],
+					"example": "/api/Notes/detail/05c1831e-a9c9-11ec-ae1c-80fa5b6abadc"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+                        {
+							"key": "member_id",
+							"description": "Berisi ID dari member pada note yang idnya sama dengan yang dikirim",
+							"note": ""
+						},
+						{
+							"key": "title",
+							"description": "Berisi judul dari note yang idnya sama dengan yang dikirim",
+							"note": ""
+						},
+                        {
+							"key": "date",
+							"description": "Berisi waktu dari note yang idnya sama dengan yang dikirim",
+							"note": ""
+						},
+                        {
+							"key": "description",
+							"description": "Berisi deskripsi dari note yang idnya sama dengan yang dikirim",
+							"note": ""
+						},
+                        {
+							"key": "support_image",
+							"description": "Berisi gambar pendukung dari note yang idnya sama dengan yang dikirim",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Berhasil Diambil",
+                        "data": [
+                            {
+                                "member_id": "7d744528-a8c8-11ec-9b23-80fa5b6abadc",
+                                "title": "aaaa",
+                                "date": "2022-03-11",
+                                "description": "bbb",
+                                "support_image": "/public/uploads/notes/7d744528-a8c8-11ec-9b23-80fa5b6abadc/notes_220322101539.png"
+                            }
+                        ]
+					}
+				}
+			}
+		},
+        {
+			"section": "update_notes",
+			"title": "Mengubah Notes Member",
+			"data": {
+				"method": "post",
+				"url": "/api/Notes/ubahNotes/05c1831e-a9c9-11ec-ae1c-80fa5b6abadc",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "title",
+							"description": "Key ini digunakan untuk memasukkan judul note"
+						},
+                        {
+							"key": "description",
+							"description": "Key ini digunakan untuk memasukkan deskripsi note"
+						},
+                        {
+							"key": "support_image",
+							"description": "Key ini digunakan untuk memasukkan gambar pendukung note"
+						},
+                        {
+							"key": "date",
+							"description": "Key ini digunakan untuk memasukkan waktu note"
+						}
+					],
+					"example": {
+					    "title":"aaaa",
+                        "description":"bbb",
+                        "support_image":"logo.png",
+                        "date":"2022-03-11"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "title",
+							"description": "Berisi judul dari note yang telah berhasil diupdate",
+							"note": ""
+						},
+						{
+							"key": "description",
+							"description": "Berisi deksripsi dari note yang telah berhasil diupdate",
+							"note": ""
+						},
+						{
+							"key": "date",
+							"description": "Berisi waktu dari note yang telah berhasil diupdate",
+							"note": ""
+						},
+						{
+							"key": "support_image",
+							"description": "Berisi gambar pendukung dari note yang telah berhasil diupdate",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Berhasil Diupdate",
+                        "data": {
+                            "title": "cccc",
+                            "description": "zzz",
+                            "date": "2022-03-13",
+                            "support_image": null
+                        }
+					}
+				}
+			}
+		},
+        {
+			"section": "hapus_notes",
+			"title": "menghapus data notes",
+			"data": {
+				"method": "get",
+				"url": "/api/Notes/hapus/05c1831e-a9c9-11ec-ae1c-80fa5b6abadc",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "-",
+							"description": "tidak ada parameter tambahan pada url"
+						}
+					],
+					"example": "/api/Notes/hapus/05c1831e-a9c9-11ec-ae1c-80fa5b6abadc"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						}    
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Berhasil Dihapus",
+                        "data": null
+					}
+				}
+			}
+		},
+        {
+			"section": "buat_task",
+			"title": "Membuat Project Task",
+			"data": {
+				"method": "post",
+				"url": "/api/Task/create",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "desciption",
+							"description": "Deskripsi Task"
+						},
+                        {
+							"key": "status",
+							"description": "Key ini digunakan untuk memasukkan status pada task"
+						},
+                        {
+							"key": "percentage_tasks",
+							"description": "Key ini digunakan untuk memasukkan persentase pada task"
+						},
+                        {
+							"key": "start_date",
+							"description": "Key ini digunakan untuk memasukkan tanggal mulai dari Task"
+						},
+                        {
+							"key": "due_date",
+							"description": "Key ini digunakan untuk memasukkan tanggal selesai dari Task"
+						},
+                        {
+							"key": "level",
+							"description": "Key ini digunakan untuk memasukkan level dari task"
+						},
+                        {
+							"key": "url_foto",
+							"description": "Key ini digunakan untuk memasukkan foto dari Task"
+						},
+                        {
+							"key": "id_member[0]",
+							"description": "Key ini digunakan untuk id member pertama yang mendapatkan task"
+						},
+						{
+							"key": "id_member[1]",
+							"description": "Key ini digunakan untuk id member kedua yang mendapatkan task"
+						},
+                        {
+							"key": "project_id",
+							"description": "Key ini digunakan untuk memasukkan ID project dari sebuah task"
+						}
+					],
+					"example": {
+					    "desciption":"kkkkkk",
+                        "status":"INIT",
+                        "percentage_tasks":"20",
+                        "start_date":"2022-02-14",
+                        "level":"LOW",
+                        "url_foto":"logo.jpg",
+                        "nama_lengkap":"rRrRrR",
+                        "project_id":"7d744528-a8c8-11ec-9b23-80fa5b6abadc",
+						"id_member[0]":"922e6992-aa48-11ec-86b0-80fa5b6abadc",
+						"id_member[1]":"7d744528-a8c8-11ec-9b23-80fa5b6abadc"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "id",
+							"description": "Berisi ID dari Project Task",
+							"note": ""
+						},
+						{
+							"key": "project_task_owner",
+							"description": "Berisi nama  dari pemberi task",
+							"note": ""
+						},
+                        {
+							"key": "creator_type",
+							"description": "Berisi tipe dari pemberi task",
+							"note": ""
+						},
+                        {
+							"key": "desciption",
+							"description": "Berisi deskripsi dari project task",
+							"note": ""
+						},
+						{
+							"key": "status",
+							"description": "Berisi status dari task",
+							"note": ""
+						},
+						{
+							"key": "percentage_tasks",
+							"description": "Berisi persentase dari task",
+							"note": ""
+						},
+                        {
+							"key": "level",
+							"description": "Berisi level dari task",
+							"note": ""
+						},
+                        {
+							"key": "start_date",
+							"description": "Berisi Waktu task dimulai",
+							"note": ""
+						},
+                        {
+							"key": "due_date",
+							"description": "Berisi waktu task selesai",
+							"note": ""
+						},
+                        {
+							"key": "task",
+							"description": "Berisi nama dari task",
+							"note": ""
+						},
+						{
+							"key": "project_id",
+							"description": "Berisi ID project dari task",
+							"note": ""
+						},
+                        {
+							"key": "url_bukti",
+							"description": "Berisi gambar bukti dari task",
+							"note": ""
+						}
+					],
+					"example": {
+						"code": 200,
+						"message": "Penambahan Task Berhasil",
+						"data": {
+							"project_task_owner": "Miftahul Ulum",
+							"creator_type": "member",
+							"desciption": "kkkkkk",
+							"status": "INIT",
+							"percentage_taks": "20",
+							"level": "LOW",
+							"start_date": "2022-02-14",
+							"due_date": "2022-03-14",
+							"task": "aaaa",
+							"project_id": "7d744528-a8c8-11ec-9b23-80fa5b6abadc",
+							"url_bukti": "/public/uploads/projects/tasks/5/tasks_220323034722.png"
+						}
+					}
+				}
+			}
+		},
+		{
+			"section": "isi_task",
+			"title": "Mengisi Task",
+			"data": {
+				"method": "post",
+				"url": "/api/Task/assign",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "status",
+							"description": "Key ini digunakan untuk memasukkan status pada task"
+						},
+                        {
+							"key": "percentage_task",
+							"description": "Key ini digunakan untuk memasukkan persentase pada task"
+						},
+                        {
+							"key": "description",
+							"description": "Key ini digunakan untuk memasukkan deskripsi pada task"
+						},
+                        {
+							"key": "id_task",
+							"description": "Key ini digunakan untuk memasukkan ID dari Task"
+						}
+					],
+					"example": {
+					    "status":"RUNNING",
+                        "percentage_task":"50",
+                        "description":"Dalam proses pengerjaan",
+                        "id_task":"f2a9463e-abdc-11ec-8ccd-80fa5b6abadc"
+					}
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "peserta_id",
+							"description": "Berisi ID dari peserta yang mengisi Task",
+							"note": ""
+						},
+						{
+							"key": "task_id",
+							"description": "Berisi ID  dari task yang telah diisi",
+							"note": ""
+						},
+                        {
+							"key": "desciption",
+							"description": "Berisi deskripsi dari task yang telah diisi",
+							"note": ""
+						},
+                        
+						{
+							"key": "percentage_task",
+							"description": "Berisi persentase dari task",
+							"note": ""
+						}
+					],
+					"example": {
+						"code": 200,
+						"message": "Penambahan Task Berhasil",
+						"data": {
+							"peserta_id": "1",
+							"task_id": "f2a9463e-abdc-11ec-8ccd-80fa5b6abadc",
+							"desciption": "Dalam proses pengerjaan",
+							"percentage_task": "50"
+						}
+					}
+				}
+			}
+		},
+        {
+			"section": "ambil_semua_project",
+			"title": "Mengambil semua data project",
+			"data": {
+				"method": "get",
+				"url": "/api/projek/index",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "-",
+							"description": "tidak ada parameter tambahan pada url"
+						}
+					],
+					"example": "/api/projek/index"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+                        {
+							"key": "id",
+							"description": "Berisi ID dari project",
+							"note": ""
+						},
+						{
+							"key": "mentor_id1",
+							"description": "Berisi ID dari mentor yang memegang project",
+							"note": ""
+						},
+                        {
+							"key": "mentor_id2",
+							"description": "Berisi ID dari mentor yang memegang project",
+							"note": ""
+						},
+                        {
+							"key": "name",
+							"description": "Berisi Nama dari Project",
+							"note": ""
+						},
+                        {
+							"key": "description",
+							"description": "Berisi Deskripsi dari project",
+							"note": ""
+						},
+                        {
+							"key": "inserted_time",
+							"description": "Berisi Waktu Memasukkan Data dari Project",
+							"note": ""
+						},
+                        {
+							"key": "last_modified_time",
+							"description": "Berisi Waktu terakhir project dimodifikasi",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Berhasil Diambil",
+                        "data": [
+                            {
+                                "member_id": "7d744528-a8c8-11ec-9b23-80fa5b6abadc",
+                                "title": "aaaa",
+                                "date": "2022-03-11",
+                                "description": "bbb",
+                                "support_image": "/public/uploads/notes/7d744528-a8c8-11ec-9b23-80fa5b6abadc/notes_220322101539.png"
+                            }
+                        ]
+					}
+				}
+			}
+		},
+		{
+			"section": "ambil_projek_peserta",
+			"title": "Mengambil projek berdasarkan peserta",
+			"data": {
+				"method": "get",
+				"url": "/api/projek/ambilPeserta",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "-",
+							"description": "tidak ada parameter tambahan pada url"
+						}
+					],
+					"example": "/api/projek/ambilPeserta"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "nama_proyek",
+							"description": "Berisi nama dari project yang diambil",
+							"note": ""
+						},
+						{
+							"key": "deskripsi",
+							"description": "Berisi Deskripsi dari project yang diambil",
+							"note": ""
+						},
+						{
+							"key": "mentor1",
+							"description": "Berisi nama dari mentor yang memegang project",
+							"note": ""
+						},
+                        {
+							"key": "mentor2",
+							"description": "Berisi nama dari mentor yang memegang project",
+							"note": ""
+						}
+					],
+					"example": {
+						"code": 200,
+						"message": "Berhasil Diambil",
+						"data": [
+							{
+								"nama_proyek": "aaaa",
+								"deskripsi": "bbbb",
+								"mentor1": "kkkkk",
+								"mentor2": "llllqqqq"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"section": "ambil_projek_mentor",
+			"title": "Mengambil projek berdasarkan mentor",
+			"data": {
+				"method": "get",
+				"url": "/api/projek/aambilMentor",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "-",
+							"description": "tidak ada parameter tambahan pada url"
+						}
+					],
+					"example": "/api/projek/ambilMentor"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "nama_proyek",
+							"description": "Berisi nama dari project yang diambil",
+							"note": ""
+						},
+						{
+							"key": "deskripsi",
+							"description": "Berisi Deskripsi dari project yang diambil",
+							"note": ""
+						},
+						{
+							"key": "mentor1",
+							"description": "Berisi nama dari mentor yang memegang project",
+							"note": ""
+						},
+                        {
+							"key": "mentor2",
+							"description": "Berisi nama dari mentor yang memegang project",
+							"note": ""
+						}
+					],
+					"example": {
+						"code": 200,
+						"message": "Berhasil Diambil",
+						"data": [
+							{
+								"nama_proyek": "aaaa",
+								"deskripsi": "bbbb",
+								"mentor1": "kkkkk",
+								"mentor2": "llllqqqq"
+							}
+						]
+					}
+				}
+			}
+		},
+        {
+			"section": "ambil_detail_project",
+			"title": "Mengambil detail data project",
+			"data": {
+				"method": "get",
+				"url": "/api/projek/detail/7d744528-a8c8-11ec-9b23-80fa5b6abadc",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "-",
+							"description": "tidak ada parameter tambahan pada url"
+						}
+					],
+					"example": "/api/projek/detail/7d744528-a8c8-11ec-9b23-80fa5b6abadc"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+						{
+							"key": "id",
+							"description": "Berisi ID dari project",
+							"note": ""
+						},
+						{
+							"key": "mentor_id1",
+							"description": "Berisi ID dari mentor yang memegang project",
+							"note": ""
+						},
+                        {
+							"key": "mentor_id2",
+							"description": "Berisi ID dari mentor yang memegang project",
+							"note": ""
+						},
+                        {
+							"key": "name",
+							"description": "Berisi Nama dari Project",
+							"note": ""
+						},
+                        {
+							"key": "description",
+							"description": "Berisi Deskripsi dari project",
+							"note": ""
+						},
+                        {
+							"key": "inserted_time",
+							"description": "Berisi Waktu Memasukkan Data dari Project",
+							"note": ""
+						},
+                        {
+							"key": "last_modified_time",
+							"description": "Berisi Waktu terakhir project dimodifikasi",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Berhasil Diambil",
+                        "data": [
+                            {
+                                "member_id": "7d744528-a8c8-11ec-9b23-80fa5b6abadc",
+                                "title": "aaaa",
+                                "date": "2022-03-11",
+                                "description": "bbb",
+                                "support_image": "/public/uploads/notes/7d744528-a8c8-11ec-9b23-80fa5b6abadc/notes_220322101539.png"
+                            }
+                        ]
+					}
+				}
+			}
+		},
+        {
+			"section": "ambil_semua_task",
+			"title": "Mengambil semua data task",
+			"data": {
+				"method": "get",
+				"url": "/api/Task/index_get",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "-",
+							"description": "tidak ada parameter tambahan pada url"
+						}
+					],
+					"example": "/api/Task/index_get"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "code",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "message",
+							"description": "Berisi pesan response",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Data response",
+							"note": ""
+						},
+                        {
+							"key": "id",
+							"description": "Berisi ID dari Project Task",
+							"note": ""
+						},
+						{
+							"key": "project_task_owner",
+							"description": "Berisi nama  dari pemberi task",
+							"note": ""
+						},
+                        {
+							"key": "creator_type",
+							"description": "Berisi tipe dari pemberi task",
+							"note": ""
+						},
+                        {
+							"key": "task",
+							"description": "Berisi nama dari project task",
+							"note": ""
+						},
+                        {
+							"key": "start_date",
+							"description": "Berisi Waktu task dimulai",
+							"note": ""
+						},
+                        {
+							"key": "due_date",
+							"description": "Berisi waktu task selesai",
+							"note": ""
+						},
+                        {
+							"key": "desciption",
+							"description": "Berisi deskripsi dari task",
+							"note": ""
+						},
+                        {
+							"key": "url_bukti",
+							"description": "Berisi gambar bukti dari task",
+							"note": ""
+						},
+                        {
+							"key": "level",
+							"description": "Berisi level dari task",
+							"note": ""
+						},
+                        {
+							"key": "status",
+							"description": "Berisi status dari task",
+							"note": ""
+						},
+                        {
+							"key": "percentage_tasks",
+							"description": "Berisi persentase dari task",
+							"note": ""
+						}
+					],
+					"example": {
+                        "code": 200,
+                        "message": "Berhasil Diambil",
+                        "data": {
+                            "id": "9f0d3265-a9cf-11ec-ae1c-80fa5b6abadc",
+                            "project_task_owner": "Miftahul Ulum",
+                            "creator_type": "member",
+                            "task": "aaaa",
+                            "start_date": "2022-02-14",
+                            "due_date": "2022-03-14",
+                            "desciption": "kkkkkk",
+                            "url_bukti": "/public/uploads/projects/tasks/5/tasks_220322110253.png",
+                            "level": "LOW",
+                            "status": "INIT",
+                            "percentage_taks": "20"
+                        }
+					}
+				}
+			}
+		},
+		{
+			"section": "get-provinsi",
+			"title": "Referensi data provinsi",
+			"data": {
+				"method": "get",
+				"url": "/api/Ref/provinsi",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "-",
+							"description": "tidak ada parameter tambahan pada url"
+						}
+					],
+					"example": "/api/Ref/provinsi"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Berisi data response",
+							"note": "Key ini akan diganti dengan 'error', jika terdapat error."
+						},
+						{
+							"key": "kode_provinsi",
+							"description": "Kode Provinsi",
+							"note": ""
+						},
+						{
+							"key": "nama_provinsi",
+							"description": "Nama Provinsi",
+							"note": "Sudah diurutkan berdasarkan Abjad"
+						}
+					],
+					"example": {
+						"status": "200",
+						"data": [
+							{
+								"kode_provinsi": "11",
+								"nama_provinsi": "ACEH"
+							},
+							{
+								"kode_provinsi": "51",
+								"nama_provinsi": "BALI"
+							},
+							{
+								"kode_provinsi": "36",
+								"nama_provinsi": "BANTEN"
+							},
+							{
+								"kode_provinsi": "17",
+								"nama_provinsi": "BENGKULU"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"section": "get-kabkota",
+			"title": "Referensi data kabupaten / kota",
+			"data": {
+				"method": "get",
+				"url": "/api/Ref/kabupatenKota",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "kode_provinsi",
+							"description": "Kode Provinsi"
+						}
+					],
+					"example": "/api/Ref/kabupatenKota?kode_provinsi=12"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Berisi data response",
+							"note": "Key ini akan diganti dengan 'error', jika terdapat error."
+						},
+						{
+							"key": "kode_kabupaten_kota",
+							"description": "Kode kabupaten / kota",
+							"note": ""
+						},
+						{
+							"key": "kode_provinsi",
+							"description": "Kode Provinsi",
+							"note": ""
+						},
+						{
+							"key": "nama_kabupaten_kota",
+							"description": "Nama kabuptane / kota",
+							"note": "Sudah diurutkan berdasarkan Abjad"
+						}
+					],
+					"example": {
+						"status": "200",
+						"data": [
+							{
+								"kode_kabupaten_kota": "1208",
+								"kode_provinsi": "12",
+								"nama_kabupaten_kota": "KABUPATEN ASAHAN"
+							},
+							{
+								"kode_kabupaten_kota": "1219",
+								"kode_provinsi": "12",
+								"nama_kabupaten_kota": "KABUPATEN BATU BARA"
+							},
+							{
+								"kode_kabupaten_kota": "1210",
+								"kode_provinsi": "12",
+								"nama_kabupaten_kota": "KABUPATEN DAIRI"
+							},
+							{
+								"kode_kabupaten_kota": "1212",
+								"kode_provinsi": "12",
+								"nama_kabupaten_kota": "KABUPATEN DELI SERDANG"
+							}
+						]
+					}
+				}
+			}
+		},
+        {
+			"section": "get-universitas",
+			"title": "Referensi data Universitas",
+			"data": {
+				"method": "get",
+				"url": "/api/Ref/universitas",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "npsn",
+							"description": "Kode universitas"
+						}
+					],
+					"example": "/api/Ref/universitas"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Berisi data response",
+							"note": "Key ini akan diganti dengan 'error', jika terdapat error."
+						},
+						{
+							"key": "npsn",
+							"description": "Kode universitas",
+							"note": ""
+						},
+						{
+							"key": "nama_universitas",
+							"description": "Nama Universitas",
+							"note": "Sudah diurutkan berdasarkan Abjad"
+						}
+					],
+					"example": {
+                        "status": "200",
+                        "message": "Data ditemukan",
+                        "data": [
+                            {
+                                "npsn": "103157  ",
+                                "nama": " Sekolah Tinggi Ilmu Kesehatan Keluarga Bunda Jambi",
+                                "jenis": "SEKOLAH_TINGGI",
+                                "status": "PTS",
+                                "wilayah": "LLDIKTI X",
+                                "kode_provinsi": "1500",
+                                "kode_kabupaten": "1571"
+                            },
+                            {
+                                "npsn": "084044  ",
+                                "nama": "Akademi Administrasi Rumah Sakit Mataram",
+                                "jenis": "AKADEMI",
+                                "status": "PTS",
+                                "wilayah": "LLDIKTI VIII",
+                                "kode_provinsi": "5200",
+                                "kode_kabupaten": "5271"
+                            },
+                            {
+                                "npsn": "104076  ",
+                                "nama": "Akademi Akuntansi (AKTAN) Boekittinggi",
+                                "jenis": "AKADEMI",
+                                "status": "PTS",
+                                "wilayah": "LLDIKTI X",
+                                "kode_provinsi": "1300",
+                                "kode_kabupaten": "1375"
+                            },
+                            {
+                                "npsn": "044002  ",
+                                "nama": "Akademi Akuntansi Bandung",
+                                "jenis": "AKADEMI",
+                                "status": "PTS",
+                                "wilayah": "LLDIKTI IV",
+                                "kode_provinsi": "3200",
+                                "kode_kabupaten": "3273"
+                            },
+                            {
+                                "npsn": "034004  ",
+                                "nama": "Akademi Akuntansi Borobudur",
+                                "jenis": "AKADEMI",
+                                "status": "PTS",
+                                "wilayah": "LLDIKTI III",
+                                "kode_provinsi": "3100",
+                                "kode_kabupaten": "3172"
+                            },
+                            {
+                                "npsn": "104141  ",
+                                "nama": "Akademi Akuntansi dan Komputer Stephen Jambi",
+                                "jenis": "AKADEMI",
+                                "status": "PTS",
+                                "wilayah": "LLDIKTI X",
+                                "kode_provinsi": "1500",
+                                "kode_kabupaten": "1571"
+                            },
+                            {
+                                "npsn": "104114  ",
+                                "nama": "Akademi Akuntansi Dan Manajemen Pembangunan",
+                                "jenis": "AKADEMI",
+                                "status": "PTS",
+                                "wilayah": "LLDIKTI X",
+                                "kode_provinsi": "1500",
+                                "kode_kabupaten": "1508"
+                            }
+                        ]
+					}
+				}
+			}
+		},
+        {
+			"section": "get-periode_magang",
+			"title": "Referensi data periode magang",
+			"data": {
+				"method": "get",
+				"url": "/api/Ref/periodemagang",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "id_magang",
+							"description": "Kode magang"
+						}
+					],
+					"example": "/api/Ref/periodemagang"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Berisi data response",
+							"note": "Key ini akan diganti dengan 'error', jika terdapat error."
+						},
+						{
+							"key": "id_magang",
+							"description": "Kode periode magang",
+							"note": ""
+						},
+						{
+							"key": "nama_magang",
+							"description": "Nama magang",
+							"note": "Sudah diurutkan berdasarkan Abjad"
+						}
+					],
+					"example": {
+                        "status": "200",
+                        "message": "Data ditemukan",
+                        "data": [
+                            {
+                                "id": "2a0e577c-9b56-11ec-8d01-9c5c8e0ccde3",
+                                "nama": "Magang Bersama",
+                                "periode": "2022",
+                                "deskripsi": "magang bersama pt arkatama",
+                                "tanggal_mulai": "2022-03-04",
+                                "tanggal_selesai": "2022-07-04",
+                                "url_banner": null,
+                                "kategori": "Magang Bersertifikat"
+                            },
+                            {
+                                "id": "2a0e577c-9b56-11ec-8d01-9c5c8e0ccde4",
+                                "nama": "Magang Individu",
+                                "periode": "2022",
+                                "deskripsi": "magang bersama pt arkatama",
+                                "tanggal_mulai": "2022-04-04",
+                                "tanggal_selesai": "2022-07-04",
+                                "url_banner": null,
+                                "kategori": "Magang Bersertifikat"
+                            }
+                        ]
+					}
+				}
+			}
+		},
+        {
+			"section": "get-posisi_magang",
+			"title": "Referensi data posisi magang",
+			"data": {
+				"method": "get",
+				"url": "/api/Ref/posisimagang",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "id_posisi",
+							"description": "Kode posisi magang"
+						}
+					],
+					"example": "/api/Ref/posisimagang"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Berisi data response",
+							"note": "Key ini akan diganti dengan 'error', jika terdapat error."
+						},
+						{
+							"key": "id_posisi",
+							"description": "Kode posisi magang",
+							"note": ""
+						},
+						{
+							"key": "nama_posisi",
+							"description": "Nama posisi magang",
+							"note": "Sudah diurutkan berdasarkan Abjad"
+						}
+					],
+					"example": {
+                        "status": "200",
+                        "message": "Data ditemukan",
+                        "data": [
+                            {
+                                "id": "4",
+                                "nama": "Progammer Web"
+                            },
+                            {
+                                "id": "5",
+                                "nama": "UI/UX Designer"
+                            },
+                            {
+                                "id": "6",
+                                "nama": "Progammer Mobile"
+                            },
+                            {
+                                "id": "7",
+                                "nama": "Software Tester"
+                            },
+                            {
+                                "id": "8",
+                                "nama": "Content Creator"
+                            },
+                            {
+                                "id": "9",
+                                "nama": "Content Writer"
+                            },
+                            {
+                                "id": "10",
+                                "nama": "Technical Writer"
+                            },
+                            {
+                                "id": "11",
+                                "nama": "Supporting System Progammer"
+                            }
+                        ]
+					}
+				}
+			}
+		},
+		{
+			"section": "get-kecamatan",
+			"title": "Referensi data kecamatan",
+			"data": {
+				"method": "get",
+				"url": "/api/Ref/kecamatan",
+				"request": {
+					"format": "application/json",
+					"header": [
+						{
+							"key": "api_key",
+							"description": "<span class=\"badge badge-primary\">Token</span>"
+						},
+						{
+							"key": "Content-Type",
+							"description": "application/json"
+						}
+					],
+					"value": [
+						{
+							"key": "kode_kabupaten_kota",
+							"description": "Kode kabupaten / kota<br />(ignore jika ingin menampilkan seluruh data kecamatan)"
+						}
+					],
+					"example": "/api/Ref/kecamatan?kode_kabupaten_kota=1109"
+				},
+				"response": {
+					"format": "application/json",
+					"value": [
+						{
+							"key": "status",
+							"description": "Status Code tiap request (lihat status code)",
+							"note": ""
+						},
+						{
+							"key": "data",
+							"description": "Berisi data response",
+							"note": "Key ini akan diganti dengan 'error', jika terdapat error."
+						},
+						{
+							"key": "kode_kecamatan",
+							"description": "Kode Kecamatan",
+							"note": ""
+						},
+						{
+							"key": "kode_kabupaten_kota",
+							"description": "Kode kabupaten / kota",
+							"note": ""
+						},
+						{
+							"key": "nama_kecamatan",
+							"description": "Nama Kecamatan",
+							"note": "Sudah diurutkan berdasarkan Abjad"
+						}
+					],
+					"example": {
+						"status": "200",
+						"data": [
+							{
+								"kode_kecamatan": "1208010",
+								"kode_kebupaten_kota": "1208",
+								"nama_kecamatan": "BANDAR PASIR MANDOGE"
+							},
+							{
+								"kode_kecamatan": "1208020",
+								"kode_kebupaten_kota": "1208",
+								"nama_kecamatan": "BANDAR PULAU"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"section": "status-code",
+			"data": {
+				"status_code": [
+					{
+						"status": "200",
+						"desc": "Sukses"
+					},
+					{
+						"status": "400",
+						"desc": "Bad Request"
+					},
+					{
+						"status": "401",
+						"desc": "Unauthorized (Expired Token/Login Failed)"
+					},
+					{
+						"status": "403",
+						"desc": "Forbidden Access (harus mengirimkan token/permission denied)"
+					},
+					{
+						"status": "404",
+						"desc": "Data tidak ditemukan"
+					},
+					{
+						"status": "500",
+						"desc": "Internal Server Error"
+					},
+					{
+						"status": "false",
+						"desc": "Other"
+					}
+				]
+			}
+		}
+	],
+	"menu": [
+		{
+			"section": "AUTHENTICATION",
+			"data": [
+				{
+					"title": "Token",
+					"slug": "post-token"
+				},
+				{
+					"title": "Refresh Token",
+					"slug": "refresh-token"
+				},
+				{
+                    "title": "Login",
+					"slug": "login"
+                },
+                {
+                    "title": "Registrasi",
+					"slug": "registrasi"
+                },
+                {
+                    "title": "Mengubah Password",
+					"slug": "ubah_password"
+                },
+                {
+                    "title": "Lupa Password",
+					"slug": "lupa_password"
+                },
+                {
+                    "title": "Validation Token",
+					"slug": "is_valid"
+                }
+			]
+		},
+		{
+			"section": "DATA MEMBER",
+			"data": [
+				{
+					"title": "Member ID",
+					"slug": "post-member-id"
+				},
+				{
+					"title": "Member Nama",
+					"slug": "post-member-nama"
+				},
+                {
+					"title": "Mengubah Data Profile Peserta",
+					"slug": "ubah_profile_peserta"
+				},
+				{
+					"title": "Mengubah Data Profile Mentor",
+					"slug": "ubah_profile_mentor"
+				},
+                {
+					"title": "Menampilkan Data Profile",
+					"slug": "ambil_profile"
+				}
+			]
+		},
+        {
+			"section": "DATA NOTES MEMBER",
+			"data": [
+				{
+					"title": "Menambah Notes",
+					"slug": "tambah_notes"
+				},
+                {
+					"title": "Menampilkan Semua Notes",
+					"slug": "ambil_semua_notes"
+				},
+                {
+					"title": "Menampilkan Detail Notes",
+					"slug": "ambil_detail_notes"
+				},
+                {
+					"title": "Mengubah Notes",
+					"slug": "update_notes"
+				},
+                {
+					"title": "Menghapus Notes",
+					"slug": "hapus_notes"
+				}
+			]
+		},
+        {
+			"section": "DATA PROJECT MEMBER",
+			"data": [
+				{
+					"title": "Membuat Data Project Task",
+					"slug": "buat_task"
+				},
+				{
+					"title": "Mengisi Task",
+					"slug": "isi_task"
+				},
+                {
+					"title": "Menampilkan Data Project Task",
+					"slug": "ambil_semua_task"
+				},
+                {
+					"title": "Menampilkan Semua Data Project",
+					"slug": "ambil_semua_project"
+				},
+				{
+					"title": "Menampilkan project by peserta",
+					"slug": "ambil_projek_peserta"
+				},
+				{
+					"title": "Menampilkan project by mentor",
+					"slug": "ambil_projek_mentor"
+				},
+                {
+					"title": "Menampilkan Detail Data Project",
+					"slug": "ambil_detail_project"
+				}
+			]
+		},
+		{
+			"section": "DATA REFERENSI",
+			"data": [
+				{
+					"title": "Provinsi",
+					"slug": "get-provinsi"
+				},
+				{
+					"title": "Kabupaten / Kota",
+					"slug": "get-kabkota"
+				},
+				{
+					"title": "Kecamatan",
+					"slug": "get-kecamatan"
+				},
+                {
+					"title": "Universitas",
+					"slug": "get-universitas"
+				},
+                {
+					"title": "Periode Magang",
+					"slug": "get-periode_magang"
+				},
+                {
+					"title": "Posisi Magang",
+					"slug": "get-posisi_magang"
+				}
+			]
+		},
+		{
+			"section": "LAINNYA",
+			"data": [
+				{
+					"title": "Status Code",
+					"slug": "status-code"
+				}
+			]
+		}
+
+	]
+}

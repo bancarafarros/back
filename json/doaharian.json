@@ -1,0 +1,205 @@
+{
+  "status": true,
+  "title": "Doa Sehari-hari",
+  "creator": "@sajadaxarkatama",
+  "editor": "Miftahul Ulum @berandal_usaha_apik",
+  "based_on": "amaliah dan doa Nahdlatul Ulama",
+  "data": [
+    {
+      "id": 1,
+      "doa": "Doa Sebelum Makan",
+      "arab": "اللَّهُمَّ بَارِكْ لَناَ فِيْمَا رَزَقْتَنا وَقِنَا عَذَابَ النَّارِ، بِسْمِ اللهِ الرَّحْمَنِ الرَّحِي",
+      "latin": "Allāhumma bārik lanā fī mā razaqtanā wa qinā ażāban nār, bismillāhir rahmānir rahīm.",
+      "arti": "Ya Allah, berkahilah kami pada rezeki yang telah Kaukaruniakan untuk kami dan lindungilah kami dari siksa neraka. Dengan nama Allah yang maha pengasih dan maha penyayang."
+    },
+    {
+      "id": 2,
+      "doa": "Doa Sesudah Makan",
+      "arab": "اَلْحَمْدُ ِللهِ الَّذِىْ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِيْنَ",
+      "latin": "Alhamdulillâhilladzî ath'amanâ wa saqânâ wa ja'alanâ minal muslimîn.",
+      "arti": "Segala puji bagi Allah yang telah memberi kami makan dan telah memberi kami minum, dan menjadikan kami termasuk orang yang patuh."
+    },
+    {
+      "id": 3,
+      "doa": "Doa Ketika Makan Lupa Membaca Doa",
+      "arab": "بِسْمِ اللهِ فِىِ أَوَّلِهِ وَآخِرِهِ",
+      "latin": "Bismillaahi fii awwalihi wa aakhirihi",
+      "arti": "Dengan menyebut nama Allah pada awal dan akhirnya"
+    },
+    {
+      "id": 4,
+      "doa": "Doa Sebelum Tidur",
+      "arab": "بِسْمِكَ اللّٰهُمَّ اَحْيَا وَاَمُوْتُ",
+      "latin": "Bismikallohumma ahya wa amuutu",
+      "arti": "Dengan menyebut nama-Mu ya Allah, aku hidup dan aku mati"
+    },
+    {
+      "id": 5,
+      "doa": "Doa Ketika Mimpi Buruk",
+      "arab": "هُوَ اللهُ ، اَللهُ رَبِّيْ لَا شَرِيْكَ لَهُ. أَعُوْذُ بِكَلِمَاتِ اللهِ التَّامَّةِ مِنْ غَضَبِهِ وَمِنْ شَرِّ عِبَادِهِ وَمِنْ هَمَزَاتِ الشَّيَاطِيْنِ وَأَنْ يَحْضُرُوْنِ",
+      "latin": "Huwallâhu, allâhu rabbî, lâ syarîka lahû. A'ûdzu bikalimâtillâhit tâmmati min ghadhabihi wa min syarri ibâdihi wamin hamazâtis syayâtîni wa an yahdhurûni.",
+      "arti": "Dialah Allah. Allah Tuhanku. Tiada sekutu bagi-Nya. Aku berlindung dengan kalimat Allah yang sempurna dari murka-Nya, kejahatan para hamba-Nya, dan godaan setan. Aku pun berlindung kepada-Nya dari kepungan setan itu."
+    },
+    {
+      "id": 6,
+      "doa": "Doa Bangun Tidur",
+      "arab": "اَلْحَمْدُ ِللهِ الَّذِىْ اَحْيَانَا بَعْدَمَآ اَمَاتَنَا وَاِلَيْهِ النُّشُوْرُ",
+      "latin": "Alhamdulillâhil ladzî ahyânâ ba'da mâ amâtanâ wa ilaihin nusyûr",
+      "arti": "Segala puji bagi Allah, Tuhan yang menghidupkan kami setelah Ia mematikan kami. Kepada-Nya lah kebangkitan hari Kiamat"
+    },
+    {
+      "id": 7,
+      "doa": "Doa Masuk Kamar Mandi Atau Toilet",
+      "arab": "اَللّٰهُمَّ اِنّىْ اَعُوْذُبِكَ مِنَ الْخُبُثِ وَالْخَبَآئِثِ",
+      "latin": "Alloohumma Innii a'uudzubika minal khubutsi wal khoaaitsi",
+      "arti": "Ya Allah, aku berlindung pada-Mu dari godaan syetan  laki-laki dan setan perempuan"
+    },
+    {
+      "id": 8,
+      "doa": "Doa Istinja",
+      "arab": "اَللّٰهُمَّ حَسِّنْ فَرْجِىْ مِنَ الْفَوَاخِشِ وَظَهِّرْ قَلْبِيْ مِنَ النِّفَاقِ",
+      "latin": "Alloohumma thahhir qolbii minan nifaaqi wa hashshin fajrii minal fawaahisyi",
+      "arti": "Wahai Tuhanku, sucikanlah hatiku dari sifat kepura-puraan (munafiq) serta peliharalah kemaluanku dari perbuatan keji"
+    },
+    {
+      "id": 9,
+      "doa": "Doa Keluar Kamar Mandi Atau Toilet",
+      "arab": "غُفْرَانَكَ الْحَمْدُ ِللهِ الَّذِىْ اَذْهَبَ عَنّى اْلاَذَى وَعَافَانِىْ",
+      "latin": "Ghufraanaka. Alhamdulillaahil ladzii adzhaba 'annjil adzaa wa'aafaanii",
+      "arti": "Dengan mengharap ampunanMu, segala puji milik Allah yang telah menghilangkan kotoran dari badanku dan yang telah menyejahterakan"
+    },
+    {
+      "id": 10,
+      "doa": "Doa Ketika Bercermin",
+      "arab": "اَللَّهُمَّ كَمَا حَسَّنْتَ خَلْقِيْ فَحَسِّنْ خُلُقِيْ",
+      "latin": "Allâhumma kamâ hassanta khalqî fahassin khuluqî.",
+      "arti": "Wahai Tuhanku, sebagaimana telah Kaubaguskan kejadianku, maka baguskanlah perangaiku."
+    },
+    {
+      "id": 11,
+      "doa": "Doa Masuk Rumah",
+      "arab": "اللّٰهُمَّ إنِّي أَسْأَلُكَ خَيْرَ المَوْلِجِ وَ خَيْرَ المَخْرَجِ, بِاسْمِ اللّٰهِ وَ لَجْنَا، بِاسْمِ اللّٰهِ خَرَجْنَا، وَ عَلَى اللّٰهِ رَبِّنَا تَوَكَّلْنَا",
+      "latin": "Allâhumma innî as'aluka khairal mauliji wa khairal makhraji bismillâhi walajnâ wa bismillâhi kharajnâ wa 'ala-Llâhi rabbinâ tawakkalnâ",
+      "arti": "Ya Allah, aku memohon sebaik-baik tempat masuk dan sebaik-baik tempat keluar. Atas nama-Mu kami masuk dan atas nama-Mu kami keluar. Dan kepada Allah Tuhan kamilah kami bertawakal"
+    },
+    {
+      "id": 12,
+      "doa": "Doa Keluar Rumah / Doa Bepergian",
+      "arab": "بِسْمِ اللهِ تَوَكَّلْتُ عَلَى اللهِ لاَحَوْلَ وَلاَقُوَّةَ اِلاَّ بِالله",
+      "latin": "Bismillaahi tawakkaltu 'alalloohi laa hawlaa walaa quwwata illaa bilaahi",
+      "arti": "Dengan menyebut nama Allah aku bertawakal kepada Allah, tiada daya kekuatan melainkan dengan pertologan Allah"
+    },
+    {
+      "id": 13,
+      "doa": "Doa Naik Kendaraan",
+      "arab": "سُبْحَانَ الَّذِىْ سَخَّرَلَنَا هَذَا وَمَاكُنَّالَهُ مُقْرِنِيْنَ وَاِنَّآ اِلَى رَبِّنَا لَمُنْقَلِبُوْنَ",
+      "latin": "subhānalladzī sakhkhara lanā hādzā wa mā kunnā lahū muqrinīna, wa innā ilā rabbinā lamunqalibūna.",
+      "arti": "Maha suci Allah yang telah menundukkan untuk kami (kendaraan) ini. padahal sebelumnya kami tidak mampu untuk menguasainya, dan hanya kepada-Mu lah kami akan kembali"
+    },
+    {
+      "id": 14,
+      "doa": "Doa Naik Kapal",
+      "arab": "بِسْمِ اللهِ مَجْرِيْهَا وَمُرْسَاهَا إِنَّ رَبِّيْ لَغَفُوْرٌ رَحِيْمٌ",
+      "latin": "ismillāhi majrēha wa mursāhā, inna rabbī laghafūrur raḥīm",
+      "arti": "Dengan menyebut nama Allah di waktu berlayar dan berlabuhnya. Sungguh Tuhanku benar-benar Maha Pengampun lagi Maha Penyayang"
+    },
+    {
+      "id": 15,
+      "doa": "Doa Memakai Pakaian",
+      "arab": "اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ خَيْرِهِ وَخَيْرِ مَا هُوَ لَهُ ، وَأَعُوْذُ بِكَ مِنْ شَرِّهِ وَشَرِّ مَا هُوَ لَهُ",
+      "latin": "Bismillaahi, Alloohumma innii as-aluka min khoirihi wa khoiri maa huwa lahuu wa'a'uu dzubika min syarrihi wa syarri maa huwa lahuu",
+      "arti": "Dengan nama-Mu yaa Allah akku minta kepada Engkau kebaikan pakaian ini dan kebaikan apa yang ada padanya, dan aku berlindung kepada Engkau dari kejahatan pakaian ini dan kejahatan yang ada padanya"
+    },
+    {
+      "id": 16,
+      "doa": "Doa Melepas Pakaian",
+      "arab": "بِسْمِ اللهِ الَّذِيْ لاَ إِلَهَ إِلَّا هُوَ",
+      "latin": "Bismillâhil ladzî lâilâha illâ huwa",
+      "arti": "Dengan nama Allah yang tiada Tuhan selain-Nya"
+    },
+    {
+      "id": 17,
+      "doa": "Doa Memakai Pakaian Baru",
+      "arab": "اللَّهُمَّ لَكَ الحَمْدُ أنْتَ كَسَوْتَنِيهِ أسألُكَ خَيْرَهُ وَخَيْرَ ما صُنِعَ لَهُ وأعُوذُ بِكَ مِنْ شَرِّهِ وَشَرّ ما صُنِعَ لَهُ",
+      "latin": "Allâhumma lakal hamdu anta kasautanîhi, as-aluka khairahu wa khaira mâ shni'a lahû wa a'ûdzu bika min syarrihi wa syarri mâ shuni'a lahu",
+      "arti": "Segala puji bagi Allah yang memberi aku pakaian ini dan memberi rizeki dengan tiada upaya dan kekuatan dariku"
+    },
+    {
+      "id": 18,
+      "doa": "Doa Masuk Masjid",
+      "arab": "الَّلهُمَّ اغْفِرْلِىْ ذُنُنُوْبِىْ وَافْتَحْ لِىْ اَبْوَابَ رَحْمَتِكَ",
+      "latin": "Allahummaghfir lii dzunuu bii waftah lii abwaa ba rahmatika",
+      "arti": "Ya Allah ya Tuhan kami, ampunilah dosa-dosaku dan bukakanlah pintu-pintu rahmat dan restu-Mu"
+    },
+    {
+      "id": 19,
+      "doa": "Doa Keluar Masjid",
+      "arab": "اَللّٰهُمَّ اِنِّى اَسْأَلُكَ مِنْ فَضْلِكَ",
+      "latin": "Allahumma innii asaluka min fadlik",
+      "arti": "Ya Allah, sesungguhnya aku memohon keutamaan dari-Mu"
+    },
+    {
+      "id": 20,
+      "doa": "Doa Menjelang Sholat Shubuh",
+      "arab": "اَللّٰهُمَّ اِنِّى اَعُوْذُ بِكَ مِنْ ضِيْقِ الدُّنْيَا وَضِيْقِ يَوْمِ الْقِيَامَةِ",
+      "latin": "Alloohumma inni a'udzubika min dzhiiqid-dunyaa wa dzhiiqi yaumal-qiyaamati",
+      "arti": "Ya Allah, Sesungguhnya aku berlindung kepada-Mu dari kesempitan dunia dan kesempitan hari kiamat. (HR. Abu Daud)"
+    },
+    {
+      "id": 21,
+      "doa": "Doa Memohon Ilmu Yang Bermanfaat",
+      "arab": "اَللّٰهُمَّ اِنِّى اَسْأَلُكَ عِلْمًا نَافِعًا وَرِزْقًا طَيِّبًا وَعَمَلاً مُتَقَبَّلاً",
+      "latin": "Alloohumma innii as-aluka 'ilmaan naafi'aan wa rizqoon thoyyibaan wa 'amalaan mutaqobbalaan",
+      "arti": "Ya Allah, sesungguhnya aku mohon kepada-Mu ilmu yang berguna, rezki yang baik dan amal yang baik Diterima. (H.R. Ibnu Majah)"
+    },
+    {
+      "id": 22,
+      "doa": "Doa Sebelum Belajar",
+      "arab": "يَارَبِّ زِدْنِىْ عِلْمًا وَارْزُقْنِىْ فَهْمًا",
+      "latin": "Yaa robbi zidnii 'ilman warzuqnii fahmaa",
+      "arti": "Ya Allah, tambahkanlah aku ilmu dan berikanlah aku rizqi akan kepahaman"
+    },
+    {
+      "id": 23,
+      "doa": "Doa Menyambut Pagi hari",
+      "arab": "اَللّٰهُمَّ بِكَ اَصْبَحْنَا وَبِكَ اَمْسَيْنَا وَبِكَ نَحْيَا وَبِكَ نَمُوْتُ وَاِلَيْكَ النُّشُوْرُ",
+      "latin": "Allāhumma bika ashbahnā, wa bika amsainā, wa bika nahyā, wa bika namūtu, wa ilaikan nusyūru",
+      "arti": "Ya Allah, dengan-Mu aku berpagi hari, dengan-Mu aku bersore hari, dengan-Mu kami hidup, dengan-Mu kami mati. Hanya kepada-Mu (kami) kembali"
+    },
+    {
+      "id": 24,
+      "doa": "Doa Menyambut Sore Hari",
+      "arab": "اَللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوْتُ، وَإِلَيْكَ النُّشُوْرُ",
+      "latin": "Allāhumma bika amsainā, wa bika nahyā, wa bika namūtu, wa ilaikan nusyūr",
+      "arti": "Ya Allah, dengan-Mu aku bersore hari, dengan-Mu kami hidup, dengan-Mu kami mati. Hanya kepada-Mu (kami) kembali."
+    },
+    {
+      "id": 25,
+      "doa": "Doa Akan Membaca Al-Qur'an",
+      "arab": "اَللّٰهُمَّ افْتَحْ عَلَىَّ حِكْمَتَكَ وَانْشُرْ عَلَىَّ رَحْمَتَكَ وَذَكِّرْنِىْ مَانَسِيْتُ يَاذَاالْجَلاَلِ وَاْلاِكْرَامِ",
+      "latin": "Alloohummaftah 'alayya hikmataka wansyur 'alayya rohmataka wa dzakkirnii maanasiitu yaa dzal jalaali wal ikhroomi",
+      "arti": "Ya Allah bukakanlah hikmahMu padaku, bentangkanlah rahmatMu padaku dan ingatkanlah aku terhadap apa yang aku lupa, wahai Dzat yang memiliki keagungan dan kemuliaan"
+    },
+    {
+      "id": 26,
+      "doa": "Doa Setelah Membaca Al-Qur'an",
+      "arab": "اَللّٰهُمَّ ارْحَمْنِىْ بِالْقُرْآنِ. وَاجْعَلْهُ لِىْ اِمَامًا وَنُوْرًا وَّهُدًى وَّرَحْمَةً. اَللّٰهُمَّ ذَكِّرْنِىْ مِنْهُ مَانَسِيْتُ وَعَلِّمْنِىْ مِنْهُ مَاجَهِلْتُ. وَارْزُقْنِىْ تِلاَ وَتَهُ آنَآءَ اللَّيْلِ وَاَطْرَافَ النَّهَارٍ. وَاجْعَلْهُ لِىْ حُجَّةً يَارَبَّ الْعَالَمِيْنَ",
+      "latin": "Allahummarhamnii bil qur'aani. waj'alhu lii imaaman wa nuuran wa hudan wa rohman. Allahumma dzakkirnii minhu maa nasiitu wa'allimnii minhu maa jahiltu. wazuqnii tilaa watahu aanaa-al laili wa athroofan nahaari. waj'alhu lii hujjatan yaa robbal 'aalamiina.",
+      "arti": "Ya Allah, rahmatilah aku dengan Al-Quran yang agung, jadikanlah ia bagiku ikutan cahaya petunjuk rahmat. Ya Allah, ingatkanlah apa yang telah aku lupa dan ajarkan kepadaku apa yang tidak aku ketahui darinya, anugerahkanlah padaku kesempatan membacanya pada sebagian malam dan siang, jadikanlah ia hujjah yang kuat bagiku, wahai Tuhan seru sekalian alam"
+    },
+    {
+      "id": 27,
+      "doa": "Doa Niat Wudhu",
+      "arab": "نَوَيْتُ الْوُضُوْءَ لِرَفْعِ الْحَدَثِ اْلاَصْغَرِ فَرْضًا لِلّٰهِ تَعَالَى",
+      "latin": "Nawaitul whudu-a lirof'il hadatsii ashghori fardhon lillaahi ta'aalaa",
+      "arti": "Saya niat berwudhu untuk menghilangkan hadast kecil fardu (wajib) karena Allah ta'ala"
+    },
+    {
+      "id": 28,
+      "doa": "Doa Setelah Wudhu",
+      "arab": "اَشْهَدُ اَنْ لاَّاِلَهَ اِلاَّاللهُ وَحْدَهُ لاَشَرِيْكَ لَهُ وَاَشْهَدُ اَنَّ مُحَمَّدًاعَبْدُهُ وَرَسُوْلُهُ. اَللّٰهُمَّ اجْعَلْنِىْ مِنَ التَّوَّابِيْنَ وَاجْعَلْنِىْ مِنَ الْمُتَطَهِّرِيْنَ، وَجْعَلْنِيْ مِنْ عِبَادِكَ الصَّالِحِيْنَ",
+      "latin": "Asyhadu allaa ilaaha illalloohu wahdahuu laa syariika lahu wa asyhadu anna muhammadan 'abduhuuwa rosuuluhuu, alloohummaj'alnii minat tawwaabiina waj'alnii minal mutathohhiriina, waj'alnii min 'ibadikash shaalihiina",
+      "arti": "Aku bersaksi, tidak ada Tuhan selain Allah Yang Maha Esa, tidak ada sekutu bagi-Nya, dan aku mengaku bahwa Nabi Muhammad itu adalah hamba dan Utusan Allah. Ya Allah, jadikanlah aku dari golongan orang-orang yang bertaubat dan jadikanlah aku dari golongan orang-orang yang suci dan jadikanlah aku dari golongan hamba-hamba Mu yang shaleh"
+    }
+  ]
+}

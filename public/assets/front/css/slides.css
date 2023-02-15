@@ -1,0 +1,132 @@
+/* panel slide1 */
+#panel1,
+#flip1 {
+	padding: 10px;
+	text-align: left;
+	background-color: #f7f7f7;
+	border: solid 0.5px #c9c7c7;
+	border-radius: 6px;
+	box-shadow: 0px 4px 20px rgba(219, 219, 219, 0.15);
+	max-height: 200px;
+}
+
+#panel1 {
+	padding: 9px;
+	display: none;
+	text-align: left;
+	max-height: fit-content;
+}
+
+/* panel slide2 */
+#panel2,
+#flip2 {
+	padding: 10px;
+	text-align: left;
+	background-color: #f7f7f7;
+	border: solid 0.5px #c9c7c7;
+	border-radius: 6px;
+	box-shadow: 0px 4px 20px rgba(219, 219, 219, 0.15);
+	max-height: 200px;
+}
+
+#panel2 {
+	padding: 9px;
+	display: none;
+	text-align: left;
+	max-height: fit-content;
+}
+
+/* panel slide3 */
+#panel3,
+#flip3 {
+	padding: 10px;
+	text-align: left;
+	background-color: #f7f7f7;
+	border: solid 0.5px #c9c7c7;
+	border-radius: 6px;
+	box-shadow: 0px 4px 20px rgba(219, 219, 219, 0.15);
+	max-height: 200px;
+}
+
+#panel3 {
+	padding: 9px;
+	display: none;
+	text-align: left;
+	max-height: fit-content;
+}
+
+/* panel slide4 */
+#panel4,
+#flip4 {
+	padding: 10px;
+	text-align: left;
+	background-color: #f7f7f7;
+	border: solid 0.5px #c9c7c7;
+	border-radius: 6px;
+	box-shadow: 0px 4px 20px rgba(219, 219, 219, 0.15);
+	max-height: 200px;
+}
+
+#panel4 {
+	padding: 9px;
+	display: none;
+	text-align: left;
+	max-height: fit-content;
+}
+
+/* panel slide5 */
+#panel5,
+#flip5 {
+	padding: 10px;
+	text-align: left;
+	background-color: #f7f7f7;
+	border: solid 0.5px #c9c7c7;
+	border-radius: 6px;
+	box-shadow: 0px 4px 20px rgba(219, 219, 219, 0.15);
+	max-height: 200px;
+}
+
+#panel5 {
+	padding: 9px;
+	display: none;
+	text-align: left;
+	max-height: fit-content;
+}
+
+/* panel slide6 */
+#panel6,
+#flip6 {
+	padding: 10px;
+	text-align: left;
+	background-color: #f7f7f7;
+	border: solid 0.5px #c9c7c7;
+	border-radius: 6px;
+	box-shadow: 0px 4px 20px rgba(219, 219, 219, 0.15);
+	max-height: 200px;
+}
+
+#panel6 {
+	padding: 9px;
+	display: none;
+	text-align: left;
+	max-height: fit-content;
+}
+
+/* panel slide7 */
+#panel7,
+#flip7 {
+	padding: 10px;
+	text-align: left;
+	background-color: #f7f7f7;
+	border: solid 0.5px #c9c7c7;
+	border-radius: 6px;
+	box-shadow: 0px 4px 20px rgba(219, 219, 219, 0.15);
+	max-height: 200px;
+}
+
+#panel7 {
+	padding: 9px;
+	display: none;
+	text-align: left;
+	max-height: fit-content;
+}
